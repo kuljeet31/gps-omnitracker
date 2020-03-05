@@ -15,12 +15,9 @@ export const routes: Routes = [
         component: MasterComponent,
         children: [
             {
-                path: 'sample',
-                loadChildren: '../../components/sample/_module#SampleModule'
-            },
-            {
                 path: 'dashboard',
-                loadChildren: '../../components/dashboard/_module#DashboardModule'
+              loadChildren:  () => import('../../components/dashboard/_module').then(m=>m.DashboardModule)
+                
             }
         ],
 
