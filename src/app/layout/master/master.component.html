@@ -1,6 +1,16 @@
 <div class="main-div">
     <div class="sidebar">sidebar</div>
-    <div class="contant">
-        <router-outlet></router-outlet> 
+    <div class="main-contant">
+     <div class="topbar">
+         <ul>
+            <form class="search-bar">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <i class="fas fa-search"></i>
+              </form>
+         </ul>
+     </div>
+     <div class="content">
+        <router-outlet></router-outlet>
+    </div>
     </div>
 </div>

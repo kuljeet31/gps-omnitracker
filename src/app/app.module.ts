@@ -6,6 +6,7 @@ import { Routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { MasterModule } from './layout/master/master.module';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MasterModule } from './layout/master/master.module';
     BrowserModule,
     Routing,
     MasterModule,
+    // AngularFontAwesomeModule
   ],
   providers: [AppConfig, {
     provide: LocationStrategy, useClass: HashLocationStrategy
