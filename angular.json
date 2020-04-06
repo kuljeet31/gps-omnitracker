@@ -28,9 +28,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/waypoints.min.js",
+              "src/assets/js/jquery.counterup.min.js",
+              "src/assets/js/wow.js",
+              "src/assets/js/theme.js"
+            ]
           },
           "configurations": {
             "production": {
