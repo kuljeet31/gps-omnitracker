@@ -1,6 +1,7 @@
 /*
 *** header style ***
 */
+
 .header-style-three {
     position: absolute;
     top: 0;
@@ -67,9 +68,11 @@
     background-color: #fff;
 }
 
+
 /*
 *** banner style ***
 */
+
 .banner-style-one__home-three .slide {
     padding-top: 357px;
     padding-bottom: 357px;
@@ -80,6 +83,7 @@
     padding-top: 308px;
     padding-bottom: 308px;
 }
+
 
 /*
 *** service style ***
@@ -149,7 +153,6 @@
     position: absolute;
     transform: translate(-50%, -100%);
     transition: transform .4s ease;
-
 }
 
 .single-offer-style-one:hover .hvr-bubble {
@@ -173,6 +176,7 @@
     left: -20%;
     transition-delay: .3s;
 }
+
 
 /*
 *** about styles ***
@@ -209,6 +213,7 @@
     z-index: 10;
 }
 
+
 /*
 *** mission styles ***
 */
@@ -235,6 +240,7 @@
     color: #fff;
     opacity: 0.7;
 }
+
 
 /*
 *** services style ***
@@ -278,7 +284,6 @@
     position: absolute;
     transform: translate(-50%, -100%);
     transition: transform .4s ease;
-
 }
 
 .single-service-one:hover .icon-block {
@@ -365,6 +370,7 @@
     padding-left: 0;
 }
 
+
 /*
 *** team styles ***
 */
@@ -376,11 +382,11 @@
 }
 
 .single-team-one:hover .image-block {
-    box-shadow: 0px 15px 35px 0px rgba(13, 29, 13, 0.2);
-
+    box-shadow: 0px 10px 10px 0px rgba(13, 29, 13, 0.2);
 }
 
-.single-team-one .image-block::before {
+
+/* .single-team-one .image-block::before {
     content: '';
     position: absolute;
     top: 0;
@@ -392,7 +398,7 @@
     transform: scale(1, 0);
     transform-origin: bottom center;
     transition: transform .5s ease;
-}
+} */
 
 .single-team-one:hover .image-block::before {
     transform: scale(1, 1);
@@ -433,10 +439,11 @@
     transition: all .4s ease;
 }
 
-.single-team-one .image-block .social-block a:hover {
+
+/* .single-team-one .image-block .social-block a:hover {
     color: #fff;
     background: #57b957;
-}
+} */
 
 .single-team-one .image-block .social-block a+a {
     margin-left: 15px;
@@ -446,9 +453,11 @@
     margin-bottom: 0;
 }
 
+
 /*
 *** funfact styles ***
 */
+
 .fun-fact-style-one.home-page-three {
     padding: 74px 0;
     background-color: #EBF0EB;
@@ -467,6 +476,7 @@
     color: #848488;
 }
 
+
 /*
 *** cta styles ***
 */
@@ -474,6 +484,7 @@
 .cta-style-one.home-page-three {
     padding: 121px 0;
 }
+
 
 /*
 *** testimonials styles ***
@@ -503,7 +514,6 @@
     background-position: left top;
     opacity: 0.2;
     position: absolute;
-
 }
 
 .testimonials-style-three .image-block::before {
@@ -566,35 +576,30 @@
     color: #8B8E93;
 }
 
+
 /*
 *** Responsive CSS ***
 */
 
 @media (max-width: 1199px) {
-
     .header-style-two .navbar-expand-lg .menu-toggler {
         float: left;
         margin-left: 15px;
     }
-
     .header-style-three .header-navigation .container .right-side-box {
         height: auto;
         padding: 20.5px 30px;
         top: 0;
     }
-
     .header-style-three .header-navigation .main-navigation {
         padding-left: 0;
     }
-
     .header-style-three .header-navigation ul.navigation-box>li {
         padding: 0;
     }
-
     .header-style-three .header-navigation ul.navigation-box>li+li {
         margin-left: 0;
     }
-
     .header-style-three .header-navigation .container .logo-box {
         left: 0;
     }
@@ -605,17 +610,14 @@
         padding-bottom: 120px;
         padding-top: 150px;
     }
-
     .offer-style-one.home-page-three .single-offer-style-one {
         margin: 0;
         margin-bottom: 30px;
     }
-
     .banner-style-one__home-three .slide-one {
         padding-top: 321px;
         padding-bottom: 321px;
     }
-
     .testimonials-style-three .image-block,
     .about-style-two.home-page-three .about-style-two-image {
         margin-bottom: 50px;
@@ -626,12 +628,10 @@
     .header-style-three .header-navigation .container .right-side-box {
         display: none;
     }
-
     .header-style-two .navbar-expand-lg .menu-toggler {
         float: right;
         margin-left: 0px;
     }
-
     .testimonials-style-three .content-block {
         padding-left: 0;
     }
@@ -641,16 +641,13 @@
     .about-style-two.home-page-three {
         padding-bottom: 120px;
     }
-
     .service-style-one.home-page-three {
         padding-top: 120px;
     }
-
     .banner-style-one__home-three .slide-one {
         padding-top: 308px;
         padding-bottom: 150px;
     }
-
     .banner-style-one__home-three .slide.slide-two,
     .banner-style-one__home-three .slide.slide-three {
         padding-bottom: 150px;
