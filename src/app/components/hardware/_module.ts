@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HardwareComponent } from './hardware.component';
 import { ChartsModule } from 'ng2-charts';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { ChartsModule } from 'ng2-charts';
     CommonModule,
     CommonModule,
     ChartsModule,
+    MDBBootstrapModule,
     RouterModule.forChild([
       { path: '', component: HardwareComponent }
     ])

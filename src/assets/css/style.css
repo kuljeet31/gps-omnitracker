@@ -8011,8 +8011,21 @@ input:focus:-ms-input-placeholder {
 
 /** Text blocks **/
 
+.g-card {
+    padding-left: 20px;
+    padding-top: 80px;
+    background-color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
 .block {
     padding: 24px 0;
+}
+
+.faq-size {
+    font-size: 36px;
+    color: #44a6dd;
 }
 
 .block-title {
@@ -8417,4 +8430,490 @@ video::-webkit-media-controls-start-playback-button {
     color: #d0d0d0;
     position: relative;
     top: 1px;
+}
+
+.map-size {
+    width: 100%;
+    height: 500px;
+}
+
+.hw {
+    margin-top: 19px;
+}
+
+.hw .box {
+    margin-bottom: 18px;
+}
+
+.hw .search {
+    margin-bottom: 40px;
+}
+
+.hw .search .form-control {
+    border-radius: 0;
+    background-color: white;
+    box-shadow: none;
+}
+
+.hw .search .form-control:focus,
+.hw .search .form-control:active {
+    border-color: #2d62a5;
+}
+
+.padd-size {
+    font-size: 80px;
+    padding: 25px 0;
+    display: block;
+    color: #44a6dd;
+}
+
+
+/* .hw .search .btn {
+    line-height: 1.42857143;
+    padding: 18px;
+} */
+
+.hw .view-switcher {
+    margin-top: 17px;
+}
+
+.hw .view-switcher a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #d0d0d0;
+}
+
+.hw .view-switcher a.active {
+    color: #2d62a5;
+}
+
+.hw .view-switcher .glyphicon {
+    font-size: 17px;
+}
+
+.hw .table thead>tr>th {
+    border: none;
+    font-weight: 400;
+}
+
+.hw .table th:first-child {
+    background-position: center center;
+}
+
+.hw .table td.plus::before {
+    content: "+";
+}
+
+.hw .table tbody>tr:last-child>td {
+    border-bottom: 1px solid #ddd;
+}
+
+.hw .table .caret-def {
+    display: inline-block;
+    color: #a0a0a0;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.hw .table .list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.hw .table .list>li {
+    padding: 8px 20px;
+}
+
+.hw .table .open {
+    background-color: #f9f9f9;
+}
+
+.hw .table .open .caret-def {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #337ab7;
+}
+
+.hw .table .open .list {
+    display: block;
+}
+
+.hw .filter {
+    padding: 15px 18px 0;
+}
+
+.hw .filter label {
+    font-weight: 500;
+}
+
+.hw .filter .checkbox {
+    margin-bottom: 16px;
+}
+
+.hw .filter .checkbox label {
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.hw .filter .checkbox input[type='checkbox']:checked+label {
+    color: #333;
+}
+
+.hw .filter .checkbox input[type='checkbox']:checked+label:before {
+    color: #fff;
+    background-color: #2d62a5;
+    text-align: center;
+    border-radius: 2px;
+    left: 0;
+}
+
+.hw .filter .form-group {
+    margin-bottom: 18px;
+}
+
+.hw .filter .show_linc {
+    display: block;
+    text-align: center;
+    margin: -10px 0 20px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+.hw .filter .caps-more {
+    margin-top: -5px;
+    display: none;
+}
+
+.hw .grid {
+    margin-bottom: 75px;
+}
+
+.hw .grid-item {
+    padding: 9px;
+}
+
+.hw .grid-item-box {
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.hw .grid-item-box:hover {
+    background-color: #f9f9f9;
+}
+
+.hw .grid-item-image {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 160px;
+    height: 190px;
+}
+
+.hw .grid-item-image img {
+    max-height: 160px;
+}
+
+.hw .grid-item-header {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.hw .button-more {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hw .button-more .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hw-top-block {
+    padding-bottom: 0;
+}
+
+.hw-top-block .block-title {
+    text-align: left;
+}
+
+.hw-menu {
+    margin-top: 25px;
+    padding-bottom: 17px;
+}
+
+.hw-menu ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 17px;
+}
+
+.hw-menu ul>li {
+    line-height: 1.6em;
+    padding-left: 18px;
+    margin-bottom: 9px;
+}
+
+.hw-menu ul>li>a {
+    color: #333;
+}
+
+.hw-menu ul>li.active {
+    font-weight: 500;
+    border-left: solid 10px #ff376d;
+    padding-left: 8px;
+}
+
+.card {
+    border: 1px solid #ebebeb;
+    padding: 18px 24px;
+    margin-bottom: 10px;
+}
+
+.card-adaptive {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-wrap {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.card-wrap>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25em;
+    height: 44px;
+    color: #333;
+}
+
+.card .btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-top: 8px;
+}
+
+.card:hover {
+    background: #f9f9f9;
+}
+
+.card:hover .btn:hover {
+    background: #2d62a5;
+    border-color: #2d62a5;
+    color: #fff;
+}
+
+.card-wide {
+    height: 80px;
+    position: relative;
+}
+
+.card-wide .card-title {
+    padding-right: 80px;
+}
+
+.card-wide .card-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-wide .card-icon>[class*=icon-] {
+    padding: 0;
+}
+
+.card-wide .more {
+    position: absolute;
+    bottom: 0;
+}
+
+.box {
+    box-shadow: 0 0 5px #ddd;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.box-panel {
+    width: 100%;
+    padding: 9px 15px;
+}
+
+.box-border {
+    border-top: solid 8px;
+}
+
+.box-border-red {
+    border-color: #ff376d;
+}
+
+.box-border-blue {
+    border-color: #9cd1fd;
+}
+
+.metric {
+    max-width: 350px;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+
+.height-425 {
+    height: 425px;
+    overflow: hidden;
+}
+
+.padding-32 {
+    padding-right: 32px;
+}
+
+.metric p {
+    margin-bottom: 8px;
+}
+
+.metric .text {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 9px;
+}
+
+.metric .number {
+    font-size: 19px;
+}
+
+.metric .row {
+    margin: 0;
+}
+
+.metric .row [class*="col-"] {
+    padding: 0;
+}
+
+.metric .row [class*="col-"]:last-child {
+    text-align: right;
+}
+
+.metric-blk {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.metric-blk:last-child {
+    border: none;
+}
+
+.wdc-stat-fixed-height {
+    height: 450px;
+}
+
+.btn.btn-default {
+    border: 1px solid #ddd;
+}
+
+.card {
+    box-shadow: 0 0 5px #ddd;
+}
+
+.btn.btn-under-text {
+    margin-left: 11px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group[class*="col-"] {
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.input-group .form-control:focus {
+    z-index: 3;
+}
+
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+select.input-group-lg>.form-control,
+select.input-group-lg>.input-group-addon,
+select.input-group-lg>.input-group-btn>.btn {
+    height: 46px;
+    line-height: 46px;
+}
+
+textarea.input-group-lg>.form-control,
+textarea.input-group-lg>.input-group-addon,
+textarea.input-group-lg>.input-group-btn>.btn,
+select[multiple].input-group-lg>.form-control,
+select[multiple].input-group-lg>.input-group-addon,
+select[multiple].input-group-lg>.input-group-btn>.btn {
+    height: auto;
+}
+
+.input-group-sm>.form-control,
+.input-group-sm>.input-group-addon,
+.input-group-sm>.input-group-btn>.btn {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+select.input-group-sm>.form-control,
+select.input-group-sm>.input-group-addon,
+select.input-group-sm>.input-group-btn>.btn {
+    height: 30px;
+    line-height: 30px;
+}
+
+.padding-20 {
+    padding-left: 20px!important;
+}
+
+.padding-1-20 {
+    padding-right: 20px!important;
+}
+
+.g-tabselect.-right .g-tabselect__menu-item.-active {
+    padding-left: 20px;
 }

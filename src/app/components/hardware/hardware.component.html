@@ -1,3 +1,13 @@
+<section class="page-title-block1 text-center">
+    <div class="container">
+        <h2>Hardware</h2>
+        <div class="thm-breadcrumb">
+            <a routerLink="/homeone">Home</a>
+            <span class="sep">/</span>
+            <span class="page-title">Hardware</span>
+        </div>
+    </div>
+</section>
 <div class="container">
     <div class="g-card">
         <div class="block-title">
@@ -20,13 +30,13 @@
             <ul class="row bar-under-text">
                 <li>
                     <a href="/en/all-hw" class="btn btn-under-text">
-                        <span class="icon-vendors"></span>
+                        <i class="fas fa-tools mr-3 faq-size"></i>
                         <span class="icon-text">The full list of Wialon-integrated devices</span>
                     </a>
                 </li>
                 <li>
                     <a href="/en/gps-hardware/faq" class="btn btn-under-text">
-                        <span class="icon-docs"></span>
+                        <i class="far fa-copy mr-3 faq-size"></i>
                         <span class="icon-text">FAQ about hardware in Wialon</span>
                     </a>
                 </li>
@@ -34,6 +44,63 @@
         </div>
 
         <div class="row hw">
+            <div class="col-md-6 col-md-push-6 clearfix">
+
+                <div id="preview_img_modal" class="fade modal" role="dialog" tabindex="-1">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> The chart below shows the changes within the last 30 days in the number of GPS tracking units registered in <a href="/en/datacenter">Wialon Data Center</a>.
+                            </div>
+                            <div class="modal-body">
+                                <img src="//hwdb-api.gurtam.com/v1/history/hosting.svg?range=month&amp;size=md" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search col-md-12 col-md-pull-12 pl-0">
+                    <form method="get" action="/en/gps-hardware/search" data-pjax="1">
+                        <div class="input-group">
+                            <input type="text" id="w0" class="form-control w-90" name="q" placeholder="Search hardware" autocomplete="off"> <span class="input-group-btn">
+                            <button class="btn btn-primary icon-search" type="submit"><i class="fas fa-search"></i></button>
+                        </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-push-6 padding-32">
+                <div class="box box-panel metric">
+                    <p>Number of units</p>
+
+                    <div class="row mh-45">
+                        <div class="col-xs-4">
+                            <div class="green number">721329</div>
+                            <div class="text">Online</div>
+                        </div>
+                        <div class="col-xs-3">
+                            <div class="number">1395237</div>
+                            <div class="text">Total</div>
+                        </div>
+                        <div class="col-xs-5">
+                            <a type="button" data-toggle="modal" data-target="#preview_img_modal" href="#">
+                                <img src="//hwdb-api.gurtam.com/v1/history/hosting.svg?range=month&amp;size=xs" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row hw">
+            <div class="search col-md-6 col-md-pull-6">
+                <form method="get" action="/en/gps-hardware/search" data-pjax="1">
+                    <div class="input-group">
+                        <input type="text" id="w0" class="form-control w-70" name="q" placeholder="Search hardware">
+                        <span class="input-group-btn">
+                        <button class="btn btn-primary icon-search" type="submit"></button>
+                    </span>
+                    </div>
+                </form>
+            </div>
             <div class="col-md-6 col-md-push-6 clearfix">
 
                 <div id="preview_img_modal" class="fade modal" role="dialog" tabindex="-1">
@@ -67,136 +134,128 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="search col-md-6 col-md-pull-6">
-                <form method="get" action="/en/gps-hardware/search" data-pjax="1">
-                    <div class="input-group">
-                        <input type="text" id="w0" class="form-control" name="q" placeholder="Search hardware"> <span class="input-group-btn">
-                <button class="btn btn-primary icon-search" type="submit"></button>
-            </span>
+            </div> -->
+
+    </div>
+    <div class="block-content hw-card">
+        <div class="row card-wrap">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        AVL hardware </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-truck padd-size"></i>
                     </div>
-                </form>
+                    <a href="https://gurtam.com/en/gps-hardware/auto" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Mobile software </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-mobile-alt padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/mobile" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Personal trackers </div>
+                    <div class="card-icon text-center">
+                        <i class="far fa-user-circle padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/personal" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Video monitoring </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-video padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/video" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Asset trackers </div>
+                    <div class="card-icon text-center">
+                        <i class="fab fa-asymmetrik padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/asset" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Protocols and retranslators </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-tv padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/soft" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        OBD trackers </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-server padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/gps-hardware/obd" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Tachographs </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-digital-tachograph padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/tachographs" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="card card-adaptive">
+                    <div class="card-title text-center">
+                        Additional hardware </div>
+                    <div class="card-icon text-center">
+                        <i class="fas fa-venus-double padd-size"></i>
+                    </div>
+                    <a href="https://gurtam.com/en/sensors" class="btn btn-default btn-block">
+                            Find out                    </a>
+                </div>
             </div>
         </div>
-        <div class="block-content hw-card">
-            <div class="row card-wrap">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            AVL hardware </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-auto_treker light-blue"></span>
+        <div class="row card-wrap mb-5">
+            <!-- <div class="col-sm-6 hidden-xs padding-20">
+                <div class="card">
+                    <div class="card-wide">
+                        <div class="card-title">
+                            flespi-type devices </div>
+                        <div class="card-icon">
+                            <span class="icon-flespi2-01 light-red"></span>
                         </div>
-                        <a href="https://gurtam.com/en/gps-hardware/auto" class="btn btn-default btn-block">
-                            Find out                    </a>
+                        <a href="https://gurtam.com/en/gps-hardware/flespi" class="more">
+                            <span class="icon-strelka"></span>
+                            <span class="icon-text"> Find out</span>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Mobile software </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-mobile light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/mobile" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Personal trackers </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-personal light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/personal" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Video monitoring </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-video_hw-01 light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/video" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Asset trackers </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-cargo light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/asset" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Protocols and retranslators </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-retranslation light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/soft" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            OBD trackers </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-obd light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/gps-hardware/obd" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Tachographs </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-taho light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/tachographs" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="card card-adaptive">
-                        <div class="card-title text-center">
-                            Additional hardware </div>
-                        <div class="card-icon text-center">
-                            <span class="icon-dut light-blue"></span>
-                        </div>
-                        <a href="https://gurtam.com/en/sensors" class="btn btn-default btn-block">
-                            Find out                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row card-wrap">
-                <div class="col-sm-6 hidden-xs">
-                    <div class="card">
-                        <div class="card-wide">
-                            <div class="card-title">
-                                flespi-type devices </div>
-                            <div class="card-icon">
-                                <span class="icon-flespi2-01 light-red"></span>
-                            </div>
-                            <a href="https://gurtam.com/en/gps-hardware/flespi" class="more">
-                                <span class="icon-strelka"></span>
-                                <span class="icon-text"> Find out</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+            </div> -->
+            <!-- <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
                     <div class="card card-adaptive">
                         <div class="card-title text-center">
                             flespi-type devices </div>
@@ -206,23 +265,23 @@
                         <a href="https://gurtam.com/en/gps-hardware/flespi" class="btn btn-default btn-block">
                             Find out                    </a>
                     </div>
-                </div>
-                <div class="col-sm-6 hidden-xs">
-                    <div class="card">
-                        <div class="card-wide">
-                            <div class="card-title">
-                                Recently-integrated devices </div>
-                            <div class="card-icon">
-                                <span class="icon-new light-red"></span>
-                            </div>
-                            <a href="https://gurtam.com/en/gps-hardware/new" class="more">
-                                <span class="icon-strelka"></span>
-                                <span class="icon-text"> Find out</span>
-                            </a>
+                </div> -->
+            <!-- <div class="col-sm-6 hidden-xs mb-5 padding-1-20">
+                <div class="card">
+                    <div class="card-wide">
+                        <div class="card-title">
+                            Recently-integrated devices </div>
+                        <div class="card-icon">
+                            <span class="icon-new light-red"></span>
                         </div>
+                        <a href="https://gurtam.com/en/gps-hardware/new" class="more">
+                            <span class="icon-strelka"></span>
+                            <span class="icon-text"> Find out</span>
+                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+            </div> -->
+            <!-- <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
                     <div class="card card-adaptive">
                         <div class="card-title text-center">
                             Recently-integrated devices </div>
@@ -232,8 +291,8 @@
                         <a href="https://gurtam.com/en/gps-hardware/new" class="btn btn-default btn-block">
                             Find out                    </a>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
-
     </div>
+
+</div>
