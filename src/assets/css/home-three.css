@@ -375,15 +375,10 @@
 *** team styles ***
 */
 
-.single-team-one .image-block {
-    position: relative;
-    box-shadow: none;
-    transition: box-shadow .3s ease;
-}
 
-.single-team-one:hover .image-block {
+/* .single-team-one:hover .image-block {
     box-shadow: 0px 10px 10px 0px rgba(13, 29, 13, 0.2);
-}
+} */
 
 
 /* .single-team-one .image-block::before {

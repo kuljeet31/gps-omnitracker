@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ProvideservicesComponent } from './provideservices.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 // import { ChartsModule } from 'ng2-charts';
 
 
@@ -13,6 +14,7 @@ import { ProvideservicesComponent } from './provideservices.component';
   imports: [
     CommonModule,
     CommonModule,
+    MDBBootstrapModule,
     // ChartsModule,
     RouterModule.forChild([
       { path: '', component: ProvideservicesComponent }

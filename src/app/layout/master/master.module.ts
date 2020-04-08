@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MasterComponent } from './master.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 export const routes: Routes = [
     
@@ -131,7 +132,8 @@ export const routes: Routes = [
     imports: [
         RouterModule.forChild(routes),
         CommonModule,
-        BrowserModule
+        BrowserModule,
+        MDBBootstrapModule.forRoot()
     ],
 
     declarations: [
