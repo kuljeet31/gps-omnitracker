@@ -208,6 +208,12 @@ a:visited {
     transition: all .4s ease;
 }
 
+.navbar {
+    .active {
+        color: #44a6dd!important;
+    }
+}
+
 .header-navigation ul.navigation-box>li>.sub-menu>li:hover>a {
     color: #fff;
     background: #44a6dd;

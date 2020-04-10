@@ -119,7 +119,11 @@ export const routes: Routes = [
             {
               path: 'hardware',
             loadChildren:  () => import('../../components/hardware/_module').then(m=>m.HardwareModule)                
-          }
+          },
+          {
+            path: 'hardwarepreview',
+          loadChildren:  () => import('../../components/hardwarepreview/_module').then(m=>m.HardwarepreviewModule)                
+        }
            
         ],
 
