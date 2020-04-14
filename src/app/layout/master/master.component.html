@@ -17,54 +17,53 @@
     </div>
     <!-- /.top-header -->
 
-
-    <!--Navbar-->
-    <!--Navbar-->
-    <!-- <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo ">
+    <!-- <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark lighten-1" [containerInside]="false">
         <mdb-navbar-brand>
-            <a class="navbar-brand" href="index.html">
-                <img src="../assets/images/resources/omni.png" class="main-logo" alt="Awesome Image" />
+            <a class="navbar-brand" routerLink="/">
+                <img src="" width="160px">
             </a>
         </mdb-navbar-brand>
-        <links class="background-clr-nav">
+        <links>
             <ul class="navbar-nav mr-auto">
-                <li class="current">
-                    <a routerLink="/homeone">Home</a>
-                    <ul class="sub-menu">
-                        <li><a routerLink="/homeone">Home One</a></li>
-                        <li><a routerLink="/hometwo">Home Two</a></li>
-                        <li><a routerLink="/homethree">Home Three</a></li>
-                    </ul>
+                <li class="nav-item pointer">
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/homeone" routerLinkActive="active">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+                <li class="nav-item pointer">
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/about" routerLinkActive="active">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-light" mdbWavesEffect>Features</a>
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/provideservices" routerLinkActive="active">Partnership</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link waves-light" mdbWavesEffect>Pricing</a>
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/hardware" routerLinkActive="active">Hardware</a>
                 </li>
                 <li class="nav-item dropdown" dropdown>
-                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-                Basic dropdown<span class="caret"></span></a>
+                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect routerLink="/shop" routerLinkActive="active">
+                        Shop<span class="caret"></span></a>
                     <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
-                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
-                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/shop">Shop page 1</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/productpage">Product Page</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/cartpage">Cartage Page</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/checkoutpage">Checkout Page</a>
                         <div class="divider dropdown-divider"></div>
                         <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect routerLink="/blog" routerLinkActive="active">
+                            Blog<span class="caret"></span></a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/blogone">Blog page one</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/blogtwo">Blog page two</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/blogdetail">Blog detail</a>
+                        <div class="divider dropdown-divider"></div>
+                        <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact" routerLinkActive="active">Contact</a>
+                </li>
             </ul>
-            <div class="right-side-box">
-                <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                </div>
-            </div>
         </links>
     </mdb-navbar> -->
 
@@ -76,42 +75,23 @@
                     <img src="../assets/images/resources/omni.png" class="main-logo" alt="Awesome Image" />
                     <img src="../assets/images/resources/omni.png" class="stricky-logo pt-2" alt="Awesome Image" />
                 </a>
-
                 <button class="menu-toggler" data-target=".header-style-one .main-navigation">
                     <span class="fa fa-bars"></span>
                 </button>
             </div>
             <div class="main-navigation pl-4">
                 <ul class=" navigation-box">
-                    <li class="">
+                    <li>
                         <a routerLink="/homeone" routerLinkActive="active">Home</a>
-                        <ul class="sub-menu">
-                            <li><a routerLink="/homeone">Home One</a></li>
-                            <li><a routerLink="/hometwo">Home Two</a></li>
-                            <li><a routerLink="/homethree">Home Three</a></li>
-                        </ul>
                     </li>
                     <li>
                         <a routerLink="/about" routerLinkActive="active">About</a>
                     </li>
                     <li>
                         <a routerLink="/provideservices" routerLinkActive="active">Partnership</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a routerLink="/privatesecurity">Private Security</a></li>
-                            <li><a routerLink="/transportsecurity">Transport Security</a></li>
-                            <li><a routerLink="/homesecurity">Home Security</a></li>
-                            <li class="active"><a>Business Security</a></li>
-                            <li><a routerLink="/protocolduties">Protocol Duties</a></li>
-                            <li><a routerLink="/armedsecurity">Armed Security</a></li>
-                        </ul> -->
                     </li>
                     <li>
                         <a routerLink="/hardware" routerLinkActive="active">Hardware</a>
-                        <ul class="sub-menu">
-                            <li><a routerLink="/blogone">Blog Style 01</a></li>
-                            <li><a routerLink="/blogtwo">Blog Style 02</a></li>
-                            <li><a routerLink="/blogdetail">Blog Details</a></li>
-                        </ul>
                     </li>
                     <li>
                         <a routerLink="/shop" routerLinkActive="active">Shop</a>
