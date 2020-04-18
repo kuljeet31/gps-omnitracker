@@ -10,6 +10,7 @@ import { MasterModule } from './layout/master/master.module';
 
 
 
+
 // import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({

@@ -690,11 +690,15 @@ a:visited {
 }
 
 .site-footer .footer-widget .newsletter-form button[type=submit] {
+    background-color: #44a6dd;
+    color: #fff;
+    border-color: #44a6dd;
+    box-shadow: 0 0 5px #44a6dd;
     cursor: pointer;
     border: none;
     outline: none;
-    background-color: #44a6dd;
-    color: #fff;
+    // background-color: #44a6dd;
+    // color: #fff;
     font-size: 15px;
     font-weight: 600;
     padding: 12px 30px;

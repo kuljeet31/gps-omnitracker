@@ -123,7 +123,15 @@ export const routes: Routes = [
           {
             path: 'hardwarepreview',
           loadChildren:  () => import('../../components/hardwarepreview/_module').then(m=>m.HardwarepreviewModule)                
-        }
+        },
+        {
+          path: 'support',
+        loadChildren:  () => import('../../components/support/_module').then(m=>m.SupportModule)                
+      },
+      {
+        path: 'privacypolicy',
+      loadChildren:  () => import('../../components/privacypolicy/_module').then(m=>m.PrivacypolicyModule)                
+    }
            
         ],
 
