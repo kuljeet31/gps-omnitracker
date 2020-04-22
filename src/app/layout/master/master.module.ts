@@ -13,7 +13,7 @@ export const routes: Routes = [
         component: MasterComponent,
         children: [
             {
-                path: 'home',
+                path: 'home1',
               loadChildren:  () => import('../../components/dashboard/_module').then(m=>m.DashboardModule)                
             },
             {
@@ -21,7 +21,7 @@ export const routes: Routes = [
               loadChildren:  () => import('../../components/about/_module').then(m=>m.AboutModule)                
             },
             {
-                path: 'provideservices',
+                path: 'partnership',
               loadChildren:  () => import('../../components/provideservices/_module').then(m=>m.ProvideservicesModule)                
             },
             {
@@ -37,7 +37,7 @@ export const routes: Routes = [
               loadChildren:  () => import('../../components/contact/_module').then(m=>m.ContactModule)                
             },
             {
-                path: 'homeone',
+                path: 'home',
               loadChildren:  () => import('../../components/homeone/_module').then(m=>m.HomeoneModule)                
             },
             {
@@ -131,7 +131,11 @@ export const routes: Routes = [
       {
         path: 'privacypolicy',
       loadChildren:  () => import('../../components/privacypolicy/_module').then(m=>m.PrivacypolicyModule)                
-    }
+    },
+    {
+      path: 'faq',
+    loadChildren:  () => import('../../components/faq/_module').then(m=>m.FaqModule)                
+  },
            
         ],
 
