@@ -264,6 +264,32 @@ mdb-navbar {
         margin-left: 0px!important;
         margin-right: 0px!important;
     }
+    .display-fl {
+        display: -webkit-box;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .width-80 {
+        width: 100%;
+        height: auto;
+    }
+    .colmn-direction {
+        display: flex;
+        width: 100%!important;
+        flex-direction: column;
+    }
+    .single-working-process-one p {
+        font-size: 12px;
+    }
+    .single-working-process-one {
+        padding-left: 0px;
+    }
+    .text-align-set {
+        text-align: left!important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -279,5 +305,9 @@ mdb-navbar {
     }
     #container {
         width: 708px;
+    }
+    .height-555 {
+        height: 610px;
+        overflow: hidden;
     }
 }

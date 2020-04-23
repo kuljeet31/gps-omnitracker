@@ -11,4 +11,4 @@ export const routes: Routes = [
     redirectTo: 'error',
   }
 ];
-export const Routing: ModuleWithProviders = RouterModule.forRoot(routes, { useHash: false });
+export const Routing: ModuleWithProviders = RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled', useHash: false });
