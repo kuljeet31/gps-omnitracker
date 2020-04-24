@@ -12,9 +12,17 @@ export const routes: Routes = [
         path: '',
         component: MasterComponent,
         children: [
+            // {
+            //     path: 'home1',
+            //   loadChildren:  () => import('../../components/dashboard/_module').then(m=>m.DashboardModule)                
+            // },
             {
-                path: 'home1',
-              loadChildren:  () => import('../../components/dashboard/_module').then(m=>m.DashboardModule)                
+              path: '',
+            loadChildren:  () => import('../../components/homeone/_module').then(m=>m.HomeoneModule)                
+            },
+            {
+              path: 'home',
+            loadChildren:  () => import('../../components/homeone/_module').then(m=>m.HomeoneModule)                
             },
             {
                 path: 'about',

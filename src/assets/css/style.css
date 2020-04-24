@@ -2841,6 +2841,7 @@ a:visited {
     font-size: 26px;
     font-weight: 500;
     color: #44a6dd;
+    text-align: center;
 }
 
 .mission-style-one .single-mission-one .count-block:before {
@@ -9167,14 +9168,6 @@ table {
     padding-top: 6px;
 }
 
-
-/* td,
-th {
-    border-bottom: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-} */
-
 .custom-btn.blue {
     background-color: #44a6dd;
 }
@@ -9342,34 +9335,6 @@ a.custom-btn {
     padding-left: 2em;
     padding-right: 90px;
 }
-
-
-/* .button-1 {
-    width: 200px;
-    height: 60px;
-    border: 1px solid #4EECE6;
-    border-radius: 30px;
-    display: inherit;
-    background-color: white;
-}
-
-.button-1:hover {
-    transition: 1.2s;
-    background: rgba(85, 251, 244, 1);
-    background: -moz-linear-gradient(left, rgba(85, 251, 244, 1) 0%, rgba(85, 251, 244, 1) 14%, rgba(85, 251, 244, 1) 39%, rgba(30, 130, 125, 1) 98%, rgba(30, 130, 125, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(85, 251, 244, 1)), color-stop(14%, rgba(85, 251, 244, 1)), color-stop(39%, rgba(85, 251, 244, 1)), color-stop(98%, rgba(30, 130, 125, 1)), color-stop(100%, rgba(30, 130, 125, 1)));
-    background: -webkit-linear-gradient(left, rgba(85, 251, 244, 1) 0%, rgba(85, 251, 244, 1) 14%, rgba(85, 251, 244, 1) 39%, rgba(30, 130, 125, 1) 98%, rgba(30, 130, 125, 1) 100%);
-    background: -o-linear-gradient(left, rgba(85, 251, 244, 1) 0%, rgba(85, 251, 244, 1) 14%, rgba(85, 251, 244, 1) 39%, rgba(30, 130, 125, 1) 98%, rgba(30, 130, 125, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(85, 251, 244, 1) 0%, rgba(85, 251, 244, 1) 14%, rgba(85, 251, 244, 1) 39%, rgba(30, 130, 125, 1) 98%, rgba(30, 130, 125, 1) 100%);
-    background: linear-gradient(to right, rgba(85, 251, 244, 1) 0%, rgba(85, 251, 244, 1) 14%, rgba(85, 251, 244, 1) 39%, rgba(30, 130, 125, 1) 98%, rgba(30, 130, 125, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#55fbf4', endColorstr='#1e827d', GradientType=1);
-    color: white;
-}
-
-.font-s {
-    font-size: 25px;
-}
-*/
 
 .img-size-set {
     height: 70px!important;

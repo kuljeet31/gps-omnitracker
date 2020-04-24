@@ -309,6 +309,7 @@ a:visited {
 
 .main-header .top-header .left-info p {
     padding: 12px 0;
+    padding-left: 185px;
 }
 
 .main-header .top-header .left-info a {
@@ -743,6 +744,12 @@ a:visited {
     padding: 12px 20px;
 }
 
+@media (max-width: 768px) {
+    .main-header .top-header .left-info p {
+        padding-left: 0px!important;
+    }
+}
+
 @media (max-width: 568.98px) {
     .d-flex {
         display: flex;
@@ -761,5 +768,11 @@ a:visited {
         i {
             font-size: 18px!important;
         }
+    }
+    .main-header .top-header .left-info p {
+        padding-left: 0px!important;
+    }
+    .carousel-caption {
+        bottom: 15%!important;
     }
 }

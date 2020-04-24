@@ -290,6 +290,9 @@ mdb-navbar {
     .text-align-set {
         text-align: left!important;
     }
+    .carousel-caption {
+        bottom: 15%!important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -309,5 +312,8 @@ mdb-navbar {
     .height-555 {
         height: 610px;
         overflow: hidden;
+    }
+    .carousel-caption {
+        bottom: 40%!important;
     }
 }
